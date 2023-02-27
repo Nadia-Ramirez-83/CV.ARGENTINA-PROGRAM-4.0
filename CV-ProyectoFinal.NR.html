@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-02-08/4819325a800859c242a3c662d407078c.ico" type="image/png">
+    <link rel="icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-02-08/4819325a800859c242a3c662d407078c.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-02-08/4819325a800859c242a3c662d407078c.ico">
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CV-ProyectoFinal.NR.css" />
+    <title>cv-ProyectoFinal.NR</title>
+</head>
+<body>
+    <div id="data">
+			<img class="foto" id="picture" src="https://randomuser.me/api/portraits/men/96.jpg" width="200px" alt="Foto de perfil.">
+        <h1>COSME FULANITO</h1>
+        <p>TELÉFONO: <a href=#>549-1122-3333</a>
+        <p>E-MAIL: <a href=#>cosmef@123.com</a>
+        <H2></H2><button id="mostrar-informacion">SOBRE MI</button>
+            <div id="informacion"></div>   
+            <script>
+              function mostrarInformacion() {
+                document.getElementById("informacion").innerHTML = "ACÁ VAN DATOS ADICIONALES COMO LOS PASATIEMPOR, LAS PREFERENCIAS Y CULAQUIER OTRO QUE NOS HAGA VER BIEN SEGÚN EL PUESTO REQUERIDO";
+              }  
+              document.getElementById("mostrar-informacion").addEventListener("click", mostrarInformacion);
+            </script>
+        <dl>
+            <h1>
+            <dt>FORMACIÓN </H1>
+            <dd>
+                <h2>INSTITUCIÓN EDUCATIVA</h2>
+                <p><strong>TÍTULO OBTENIDO</strong> FECHA<br />
+                </p>
+                <h2>INSTITUCIÓN EDUCATIVA</h2>
+                <p><strong>TÍTULO OBTENIDO</strong> FECHA<br />
+                </p>
+        </dl>
+        <dl>
+            <dt>HABILIDADES
+            <dd>
+                <h2>IDIOMAS</h2>
+                <p>ACÁ VAN LOS IDIOMAS Y EL NIVEL
+                <h2>COMPUTACIÓN E INFOMÁTICSS</h2>
+                <p> ACÁ VAN LOS NOMBRES Y EL NIVEL DE MANEJO DE CADA UNO
+                <h2>OTRAS</h2>
+                <p> REDES-COMUNICATIVAS-TRABAJO EN EQJUIPO
+                
+        </dl>
+        <dl>
+            <dt>EXPERIENCIA
+            <dd>
+                <h2>TRABAJO 1<span>CIUDAD Y FECHA DE INICIO – HASTA</span></h2>
+                <ul>
+                    <li>ACTIVIDADES Y OCUPACIONES
+                    <li>ACTIVIDADES Y OCUPACIONES
+                </ul>
+                <h2>TRABAJO 2<span>CIUDAD Y FECHA DE INICIO – HASTA</span></h2>
+                <ul>
+                    <li>ACTIVIDADES Y OCUPACIONES
+                    <li>ACTIVIDADES Y OCUPACIONES
+                </ul>
+                <h2>TRABAJO 3<span>CIUDAD Y FECHA DE INICIO – HASTA</span></h2>
+                <ul>
+                    <li>ACTIVIDADES Y OCUPACIONES
+                    <li>ACTIVIDADES Y OCUPACIONES
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt>REFERENCIAS
+                
+            <dd><form>
+                <button type="submit" onclick="enviarCorreo()">SOLICITAR</button>
+              </form>
+            </section>
+            
+            <script>
+              function enviarCorreo() {
+                var destinatario = "cosmef@123.com";
+                var asunto = "SOLICITO REFERENCIAS LABORALES";
+                var cuerpo = "Cuerpo del mensaje";
+                window.open("mailto:" + destinatario + "?subject=" + asunto + "&body=" + cuerpo);
+              }
+            </script>
+        </dl>
+    </div>
+</body>
+
+</html>
